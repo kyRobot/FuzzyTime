@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		08F3ED2CA321A5295330AC4F5BDA66E8 /* FuzzyTime-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E48C7E11FABD18357723E199E169F4E /* FuzzyTime-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		097ABFA11DC942E600AFBA0B /* FuzzyTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097ABFA01DC942E600AFBA0B /* FuzzyTime.swift */; };
 		42CDB780EA8F6739949F72B4CC9D7A78 /* FuzzyTime-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3170E440663DA9D3126EA083E06F2D9 /* FuzzyTime-dummy.m */; };
 		5C6363648C607821CDF2DAF7E3AF04B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		791B7E62609834AC07E4A126E403EB75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		8A680AAE62FEE4C2CDBF414713ECB68A /* Pods-FuzzyTime_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B28ACCF1E264BACC51A684512B5416C /* Pods-FuzzyTime_Tests-dummy.m */; };
-		B0E69E27A74EDCFE2F4F1BF4C2BC5575 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7DFFB189ED823B676F694DAF51E48 /* ReplaceMe.swift */; };
 		FE4997D1AFB8022D2030894F63FD0523 /* Pods-FuzzyTime_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8119D86014314DB132FAE9192236D50E /* Pods-FuzzyTime_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -27,13 +27,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		097ABFA01DC942E600AFBA0B /* FuzzyTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuzzyTime.swift; sourceTree = "<group>"; };
 		0B28ACCF1E264BACC51A684512B5416C /* Pods-FuzzyTime_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FuzzyTime_Tests-dummy.m"; sourceTree = "<group>"; };
 		115C0B985FD13A2527EF446682515938 /* FuzzyTime.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FuzzyTime.xcconfig; sourceTree = "<group>"; };
 		12AAB7C10A7A75D6E1F29DB4F3EA956A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23A774117DFD10BE89826F86092E8B41 /* Pods-FuzzyTime_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FuzzyTime_Tests-resources.sh"; sourceTree = "<group>"; };
 		2994EE8AF65DAB4AE0355834766D9A17 /* Pods-FuzzyTime_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FuzzyTime_Tests.modulemap"; sourceTree = "<group>"; };
 		664DFAF09240D7C7AF6FBEE3BAE1709F /* Pods-FuzzyTime_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FuzzyTime_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		68C7DFFB189ED823B676F694DAF51E48 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		6E48C7E11FABD18357723E199E169F4E /* FuzzyTime-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FuzzyTime-umbrella.h"; sourceTree = "<group>"; };
 		8119D86014314DB132FAE9192236D50E /* Pods-FuzzyTime_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FuzzyTime_Tests-umbrella.h"; sourceTree = "<group>"; };
 		896E91FFCA659C45993DE381128ECB16 /* Pods-FuzzyTime_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FuzzyTime_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -175,7 +175,7 @@
 		D2201EE83B13BBA1C7C1B7019F2CB3EC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				68C7DFFB189ED823B676F694DAF51E48 /* ReplaceMe.swift */,
+				097ABFA01DC942E600AFBA0B /* FuzzyTime.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -286,7 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42CDB780EA8F6739949F72B4CC9D7A78 /* FuzzyTime-dummy.m in Sources */,
-				B0E69E27A74EDCFE2F4F1BF4C2BC5575 /* ReplaceMe.swift in Sources */,
+				097ABFA11DC942E600AFBA0B /* FuzzyTime.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +306,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 115C0B985FD13A2527EF446682515938 /* FuzzyTime.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -495,6 +496,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 115C0B985FD13A2527EF446682515938 /* FuzzyTime.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
