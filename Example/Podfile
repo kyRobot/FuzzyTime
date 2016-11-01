@@ -1,0 +1,6 @@
+use_frameworks!
+target 'FuzzyTime_Tests' do
+  pod 'FuzzyTime', :path => '../'
+  
+  
+end
