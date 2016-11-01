@@ -1,0 +1,6 @@
+framework module FuzzyTime {
+  umbrella header "FuzzyTime-umbrella.h"
+
+  export *
+  module * { export * }
+}

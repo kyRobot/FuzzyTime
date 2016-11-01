@@ -1,0 +1,6 @@
+framework module Pods_FuzzyTime_Tests {
+  umbrella header "Pods-FuzzyTime_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

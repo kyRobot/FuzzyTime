@@ -1,0 +1,16 @@
+PODS:
+  - FuzzyTime (0.1.0)
+
+DEPENDENCIES:
+  - FuzzyTime (from `../`)
+
+EXTERNAL SOURCES:
+  FuzzyTime:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FuzzyTime: 30ecbb9221fdaefabf72e92e8123754c6eb724e6
+
+PODFILE CHECKSUM: 6143518d1b7570ebd84b9c5f95826e62e0f75f5e
+
+COCOAPODS: 1.1.1
