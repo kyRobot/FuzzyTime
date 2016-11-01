@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'FuzzyTime'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of FuzzyTime.'
+  s.summary          = 'A utility to represent NSDates as Fuzzy approximation Strings'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,15 +18,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+FuzzyTime is a Swift util to convert NSDate's into human friendly, fuzzy approximations
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/FuzzyTime'
+  s.homepage         = 'https://github.com/kyRobot/FuzzyTime'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Kyle' => 'kylemilner@me.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/FuzzyTime.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Kyle' => '@kyRobot' }
+  s.source           = { :git => 'https://github.com/kyRobot/FuzzyTime.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/kyRobot'
 
   s.ios.deployment_target = '8.0'
 

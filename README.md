@@ -1,6 +1,7 @@
 # FuzzyTime
 
-[![CI Status](http://img.shields.io/travis/Kyle/FuzzyTime.svg?style=flat)](https://travis-ci.org/Kyle/FuzzyTime)
+FuzzyTime is a Swift util to convert NSDate's into human friendly, fuzzy approximations
+
 [![Version](https://img.shields.io/cocoapods/v/FuzzyTime.svg?style=flat)](http://cocoapods.org/pods/FuzzyTime)
 [![License](https://img.shields.io/cocoapods/l/FuzzyTime.svg?style=flat)](http://cocoapods.org/pods/FuzzyTime)
 [![Platform](https://img.shields.io/cocoapods/p/FuzzyTime.svg?style=flat)](http://cocoapods.org/pods/FuzzyTime)
@@ -22,7 +23,7 @@ pod "FuzzyTime"
 
 ## Author
 
-Kyle, kylemilner@me.com
+Kyle @kyRobot
 
 ## License
 
